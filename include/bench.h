@@ -14,7 +14,7 @@
 		task\
 	}\
 	clock_t end = clock();\
-	printf("%s:\t%f milliseconds.\n", (name_string), (((double)end - (double)start) / CLOCKS_PER_SEC) * 1000);\
+	printf("%s:\t%.3f milliseconds.\n", (name_string), (((double)end - (double)start) / CLOCKS_PER_SEC) * 1000);\
 }
 
 #endif
